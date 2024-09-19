@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* App Container */
+  #app {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Text-to-Speech Box */
+  #text-to-speech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Text Area Styling */
+  #text {
+    width: 100%;
+    max-width: 400px;
+    height: 120px;
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Speak Button Styling */
+  #speak-button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #speak-button:hover {
+    background-color: #ffa500;
+  }
+  
+  /* Footer Styling */
+  footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+    color: #fff;
+    opacity: 0.7;
+  }
